@@ -88,7 +88,7 @@ def show_some_plots():
 
 	    <ul>
 	    % for url in charts:
-	        <img src="/retrieve_plot/${url}" />
+	        <img src="/graas/retrieve_plot/${url}" />
 	    % endfor    
 	    </ul>
 
@@ -101,5 +101,9 @@ def show_some_plots():
 	mytemplate = Template(template_string)
 	return mytemplate.render(charts=charts)
 
+@route('/')
+def index():
+	return "hello world"
+
 mc = memcache.Client([CACHE_BACKEND], debug=0)
-run(host='localhost', port=8080)	
+#run(host='localhost', port=8080)	
