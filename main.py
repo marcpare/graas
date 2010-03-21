@@ -73,7 +73,7 @@ def request_plot(plot_data):
 @route('/')
 @view('index')
 def index():
-	return {}
+	return {"root_url": ROOT_URL}
 
 # mc = memcache.Client([CACHE_BACKEND], debug=0)
 
