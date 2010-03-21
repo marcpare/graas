@@ -9,7 +9,7 @@
 <body>
     <h1>Welcome to graas</h1>
     <p>grass is Graphing as a Service</p>
-    
     <p><a href="plot?data={%22x%22:%20[1,%202,%2010],%20%22y%22:%20[1,%202,%204],%20%22name%22:%20%22asdf2%22,%20%22xlabel%22:%20%22time%22}">Show me a plot</a></p>
+    <p>by Marc</p>
 </body>
 </html>
