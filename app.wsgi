@@ -1,6 +1,6 @@
 # File: /var/www/graas/app.wsgi
 import os
-# os.chdir(os.path.dirname(__file__))
+os.chdir(os.path.dirname(__file__))
 
 import bottle
 import main
